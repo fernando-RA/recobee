@@ -1,6 +1,6 @@
 import React from "react";
 import Image from "next/image";
-import data from "yourdata";
+import data from "../yourdata";
 
 const Footer = () => (
   <div className="section" id="contact">

@@ -2,8 +2,8 @@ import React from "react";
 import Fade from "react-reveal/Fade";
 import Typewriter from "typewriter-effect";
 
-import data from "yourdata";
-import WalletConnectBtn from "components/w3/walletConnectBtn";
+import data from "../yourdata";
+import WalletConnectBtn from "../components/w3/walletConnectBtn";
 
 const Header = () => (
   <div className="section" id="home">

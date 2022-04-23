@@ -3,7 +3,7 @@ import { providers } from "ethers";
 import { useCallback, useEffect, useReducer } from "react";
 import WalletLink from "walletlink";
 import Web3Modal from "web3modal";
-import { ellipseAddress, getChainData } from "lib/utilities";
+import { ellipseAddress, getChainData } from "../../lib/utilities";
 
 const INFURA_ID = "40203d324b364d578473bb03abe47822";
 
