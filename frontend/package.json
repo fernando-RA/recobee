@@ -1,0 +1,47 @@
+{
+  "name": "buildleansaassite",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "NODE_ENV=production next build",
+    "start": "next start",
+    "lint": "next lint",
+    "analyze": "cross-env NODE_ENV=production ANALYZE=true next build"
+  },
+  "dependencies": {
+    "@3rdweb/hooks": "^1.9.2",
+    "@3rdweb/sdk": "^1.42.0",
+    "@analytics/google-analytics": "^0.5.3",
+    "@chakra-ui/react": "^1.8.8",
+    "@emotion/react": "^11.9.0",
+    "@emotion/styled": "^11.8.1",
+    "@next/bundle-analyzer": "^12.1.4",
+    "@walletconnect/web3-provider": "^1.7.7",
+    "analytics": "^0.8.1",
+    "ethers": "^5.6.4",
+    "framer-motion": "^6.3.0",
+    "next": "^12.1.4",
+    "prop-types": "^15.7.2",
+    "react": "^18.0.0-rc.3",
+    "react-dom": "^18.0.0-rc.3",
+    "react-helmet": "^6.1.0",
+    "react-icons": "^4.3.1",
+    "react-reveal": "^1.2.2",
+    "react-scripts": "^4.0.0",
+    "react-scroll": "^1.8.7",
+    "sass": "*",
+    "typewriter-effect": "^2.18.2",
+    "use-analytics": "^0.0.5",
+    "walletlink": "^2.5.0",
+    "web3modal": "^1.9.6"
+  },
+  "devDependencies": {
+    "@types/node": "^17.0.23",
+    "@types/react": "^17.0.43",
+    "cross-env": "^7.0.3",
+    "eslint": "8.0.0",
+    "eslint-config-next": "11.1.2",
+    "typescript": "^4.6.3"
+  }
+}
